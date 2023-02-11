@@ -1,7 +1,9 @@
 set mainProjectName to text returned of (display dialog "Ingrese el nombre del nuevo proyecto:" default answer "New_Project")(*cuadro de dialogo que solicita el nombre del proyecto*)
+set testFolderName to "test"
 
 tell application "Finder"
   set mainFolder to (make new folder at desktop with properties {name:mainProjectName})(*crea el nuevo folder en el escritorio, modificar el valor desktop por la ubicacion de los proyectos*)
+  set testFolder to (make new folder at mainFolder with properties {name:testFolderName})
 end tell
 
 set numberOfFolders to text returned of (display dialog "Ingrese el número de carpetas que desea crear:" default answer "1")(*cuadro de dialogo que recoge el numero de subcarpetas a crear*)
