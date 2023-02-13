@@ -1,8 +1,10 @@
 set mainProjectName to text returned of (display dialog "Ingrese el nombre del nuevo proyecto:" default answer "New_Project")(*cuadro de dialogo que solicita el nombre del proyecto*)
 set testFolderName to "test"
 
+set selectedFolder to choose folder with prompt "Seleccione la carpeta de destino:"
+
 tell application "Finder"
-  set mainFolder to (make new folder at desktop with properties {name:mainProjectName})(*crea el nuevo folder en el escritorio, modificar el valor desktop por la ubicacion de los proyectos*)
+  set mainFolder to (make new folder at selectedFolder with properties {name:mainProjectName})(*crea el nuevo folder en la carpeta modificada, modificar el valor desktop por la ubicacion de los proyectos*)
   set testFolder to (make new folder at mainFolder with properties {name:testFolderName})
 end tell
 
