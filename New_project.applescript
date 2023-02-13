@@ -13,6 +13,6 @@ set numberOfFolders to numberOfFolders as integer
 repeat with i from 1 to numberOfFolders(*bucle desde 1 hasta las carpetas indicadas*)
   set theFolderName to NameFolders & i as string(*nombre de la subcarpeta*)
   tell application "Finder"
-    set theFolder to (make new folder at mainFolder with properties {name:theFolderName})
+    set theFolder to (make new folder at selectedFolder with properties {name:theFolderName})
   end tell
 end repeat
