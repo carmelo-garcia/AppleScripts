@@ -1,3 +1,4 @@
+(*Designed for NoDrinksHere*)
 set selectedFolder to choose folder with prompt "Seleccione la carpeta de destino:"(*seleccion del directorio donde queremos crear el proyecto*)
 set mainProjectName to text returned of (display dialog "Ingrese el nombre del nuevo proyecto:" default answer "New_Project")(*cuadro de dialogo que solicita el nombre del proyecto*)
 set testFolderName to "test"
