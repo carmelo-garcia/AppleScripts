@@ -4,7 +4,7 @@ set testFolderName to "test"
 set NameFolders to text returned of(display dialog "Ingresa el nombre de las carpetas a crear:" default answer "Look")
 
 tell application "Finder"
-  set mainFolder to (make new folder at selectedFolder with properties {name:mainProjectName})(*crea el nuevo folder en la carpeta modificada, modificar el valor desktop por la ubicacion de los proyectos*)
+  set mainFolder to (make new folder at selectedFolder with properties {name:mainProjectName})(*crea el nuevo folder en la carpeta seleccionada*)
   set testFolder to (make new folder at mainFolder with properties {name:testFolderName})
 end tell
 
