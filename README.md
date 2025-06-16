@@ -32,5 +32,9 @@ Scripts desarrollados para facilitar tu flujo de trabajo en Capture One: creaci�
 4. Haz clic en “Run” y deja que los scripts hagan el trabajo por ti.
 
 ---
+Creados y diseñados para No.Drinks.here
 
-¡Espero que te sirvan para ahorrar tiempo y editar con más fluidez! ✨
+<a href="https://nodrinkshere.com" target="_blank">
+  <img width="85" height="151" src="https://nodrinkshere.com/wp-content/uploads/2024/10/wink_white-128w-infinite.gif" alt="No Drinks Here Logo">
+</a>
+
