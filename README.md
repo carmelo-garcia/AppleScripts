@@ -34,7 +34,7 @@ Scripts desarrollados para facilitar tu flujo de trabajo en Capture One: creaciÃ
 ---
 Creados y diseÃ±ados para No.Drinks.here
 
-<a href="https://nodrinkshere.com" target="_blank">
+<a href="https://nodrinkshere.com/resources/" target="_blank">
   <img width="85" height="151" src="https://nodrinkshere.com/wp-content/uploads/2024/10/wink_white-128w-infinite.gif" alt="No Drinks Here Logo">
 </a>
 
